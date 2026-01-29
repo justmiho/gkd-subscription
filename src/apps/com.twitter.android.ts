@@ -15,7 +15,7 @@ export default defineGkdApp({
       snapshotUrls: ['https://i.gkd.li/i/24929639', 'https://i.gkd.li/i/24930744'],
     },
     {
-      key: 0,
+      key: 1,
       name: '功能类-自动点击"是，查看个人资料"',
       desc: '点击个人资料警告的"是，查看个人资料"按钮',
       enable: false,
