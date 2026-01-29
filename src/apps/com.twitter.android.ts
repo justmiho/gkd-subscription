@@ -12,7 +12,7 @@ export default defineGkdApp({
       fastQuery: true,
       activityIds: ['com.twitter.app.main.MainActivity', 'com.twitter.app.profiles.ProfileActivity'],
       rules: 'Button[text="显示"]',
-      snapshotUrls: 'https://i.gkd.li/i/24929639',
+      snapshotUrls: ['https://i.gkd.li/i/24929639', 'https://i.gkd.li/i/24930744'],
     },
     {
       key: 0,
@@ -22,7 +22,7 @@ export default defineGkdApp({
       fastQuery: true,
       activityIds: ['com.twitter.app.profiles.ProfileActivity'],
       rules: 'Button[text="是，查看个人资料"]',
-      snapshotUrls: 'https://i.gkd.li/i/24929639',
+      snapshotUrls: 'https://i.gkd.li/i/24930767',
     },
   ],
 });
