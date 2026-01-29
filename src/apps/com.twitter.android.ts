@@ -10,9 +10,15 @@ export default defineGkdApp({
       desc: '点击帖子警告内容的显示按钮',
       enable: false,
       fastQuery: true,
-      activityIds: ['com.twitter.app.main.MainActivity', 'com.twitter.app.profiles.ProfileActivity'],
+      activityIds: [
+        'com.twitter.app.main.MainActivity',
+        'com.twitter.app.profiles.ProfileActivity',
+      ],
       rules: 'Button[text="显示"]',
-      snapshotUrls: ['https://i.gkd.li/i/24929639', 'https://i.gkd.li/i/24930744'],
+      snapshotUrls: [
+        'https://i.gkd.li/i/24929639',
+        'https://i.gkd.li/i/24930744',
+      ],
     },
     {
       key: 1,
