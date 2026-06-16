@@ -14,7 +14,7 @@ export default defineGkdApp({
         'com.twitter.app.main.MainActivity',
         'com.twitter.app.profiles.ProfileActivity',
       ],
-      rules: 'Button[text="显示"]',
+      rules: 'TextView[text="显示"]',
       snapshotUrls: [
         'https://i.gkd.li/i/24929639',
         'https://i.gkd.li/i/24930744',
