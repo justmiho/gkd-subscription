@@ -12,7 +12,7 @@ export default defineGkdApp({
       fastQuery: true,
       activityIds: [
         'com.twitter.app.main.MainActivity',
-        'com.x.android.main.MainActivity',
+        'com.x.android.main.MainActivity'
       ],
       rules: 'TextView[text="显示"]',
       snapshotUrls: [
@@ -28,7 +28,7 @@ export default defineGkdApp({
       fastQuery: true,
       activityIds: [
         'com.twitter.app.profiles.ProfileActivity',
-        'com.x.android.profiles.ProfileActivity',
+        'com.x.android.profiles.ProfileActivity'
       ],
       rules: 'Button[text="是，查看个人资料"]',
       snapshotUrls: 'https://i.gkd.li/i/24930767',
