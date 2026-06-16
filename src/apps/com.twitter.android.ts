@@ -13,6 +13,8 @@ export default defineGkdApp({
       activityIds: [
         'com.twitter.app.main.MainActivity',
         'com.twitter.app.profiles.ProfileActivity',
+        'com.x.android.main.MainActivity',
+        'com.x.android.profiles.ProfileActivity'
       ],
       rules: 'TextView[text="显示"]',
       snapshotUrls: [
