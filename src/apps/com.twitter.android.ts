@@ -11,27 +11,13 @@ export default defineGkdApp({
       enable: false,
       fastQuery: true,
       activityIds: [
-        'com.twitter.app.main.MainActivity',
-        'com.x.android.main.MainActivity',
+        'com.x.android.main.MainActivity'
       ],
-      rules: 'TextView[text="显示"]',
+      rules: 'TextView[text="显示"] + Button',
       snapshotUrls: [
-        'https://i.gkd.li/i/24929639',
-        'https://i.gkd.li/i/24930744',
+        'https://i.gkd.li/i/29028933',
+        'https://i.gkd.li/i/29028935',
       ],
-    },
-    {
-      key: 1,
-      name: '功能类-自动点击"是，查看个人资料"',
-      desc: '点击个人资料警告的"是，查看个人资料"按钮',
-      enable: false,
-      fastQuery: true,
-      activityIds: [
-        'com.twitter.app.profiles.ProfileActivity',
-        'com.x.android.profiles.ProfileActivity',
-      ],
-      rules: 'Button[text="是，查看个人资料"]',
-      snapshotUrls: 'https://i.gkd.li/i/24930767',
-    },
+    }
   ],
 });
