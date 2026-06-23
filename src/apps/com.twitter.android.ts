@@ -38,7 +38,7 @@ export default defineGkdApp({
       snapshotUrls: 'https://i.gkd.li/i/24930767',
     },
     {
-      key: 1,
+      key: 3,
       name: '功能类-自动点击"显示"（旧版EN）',
       desc: '点击帖子警告内容的显示按钮',
       enable: false,
@@ -48,7 +48,7 @@ export default defineGkdApp({
       snapshotUrls: ['https://i.gkd.li/i/24929639', 'https://i.gkd.li/i/24930744'],
     },
     {
-      key: 2,
+      key: 4,
       name: '功能类-自动点击"是，查看个人资料"（旧版EN）',
       desc: '点击个人资料警告的"是，查看个人资料"按钮',
       enable: false,
